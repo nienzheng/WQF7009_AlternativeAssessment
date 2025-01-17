@@ -212,6 +212,12 @@ def execute_model(model,results,model_name='',learningrate=0.001,epochs=10,batch
     plt.title(model_name)
     plt.legend()
     plt.show()
+
+    if(model_name=='VGG-16'):
+        model_file_path='vgg16_trained_model_2.pth'
+        # Save the trained model
+        print(f"Saving the trained model to {model_file_path}")
+        torch.save(model.state_dict(), model_file_path)
     
     # Test the model
     model.eval()
