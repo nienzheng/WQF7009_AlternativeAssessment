@@ -8,8 +8,7 @@
    - About Dataset: dataset description
    - About Model: model description
 
-
-To run XAI_DASHBOARD.py which built using streamlit, start Anaconda Terminal, and enter commands below:
+3. To run XAI_DASHBOARD.py which built using streamlit, start Anaconda Terminal, and enter commands below:
    - cd \<filepath of XAI_DASHBOARD.py>
    - streamlit run XAI_DASHBOARD.py
 
