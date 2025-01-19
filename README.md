@@ -9,7 +9,7 @@
    - Executing the code will train the 3 models and the trained model weights of VGG-16 (the best performer) will be stored locally as "vgg16_trained_model_2.pth" which can be used for XAI_DASHBOARD.py
 
 To run XAI_DASHBOARD.py which built using streamlit, start Anaconda Terminal, and enter commands below:
-- cd <filepath of XAI_DASHBOARD.py>
+- cd \<filepath of XAI_DASHBOARD.py>
 - streamlit run XAI_DASHBOARD.py
 
 NOTE 1: Further information for execution is available in: https://docs.streamlit.io/develop/concepts/architecture/run-your-app
