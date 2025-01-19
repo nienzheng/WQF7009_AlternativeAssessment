@@ -1,12 +1,13 @@
-1. XAI_DASHBOARD.py is dashboard built for alternative assignment part 2 designed using Questions driven XAI design. It consists of the following sections:
+1. <ins>WQF7009 Alternative Assessment Part 1 - Code.py</ins> is the code built for alternative assignment part 1 to train 3 models: Logistic regression, ResNet-18, VGG-16
+   - Executing the code will train the 3 models and the trained model weights of VGG-16 (the best performer) will be stored locally as "vgg16_trained_model_2.pth" which can be used for XAI_DASHBOARD.py
+2. <ins>XAI_DASHBOARD.py</ins> is dashboard built for alternative assignment part 2 designed using Questions driven XAI design. It consists of the following sections:
    - Sidebar: upload chest x-ray image to get pneumonia prediction
    - Model prediction: prediction and 2 XAI explanations: Grad-CAM and LIME
    - Model performance: performance details of model
    - Data: view the first 30 images of Test/Validation/Train datasets
    - About Dataset: dataset description
    - About Model: model description
-2. WQF7009 Alternative Assessment Part 1 - Code.py is the code built for alternative assignment part 2 to train 3 models: Logistic regression, ResNet-18, VGG-16
-   - Executing the code will train the 3 models and the trained model weights of VGG-16 (the best performer) will be stored locally as "vgg16_trained_model_2.pth" which can be used for XAI_DASHBOARD.py
+
 
 To run XAI_DASHBOARD.py which built using streamlit, start Anaconda Terminal, and enter commands below:
 - cd \<filepath of XAI_DASHBOARD.py>
