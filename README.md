@@ -12,6 +12,6 @@
    - cd \<filepath of XAI_DASHBOARD.py>
    - streamlit run XAI_DASHBOARD.py
 
-NOTE 1: Further information for execution is available in: https://docs.streamlit.io/develop/concepts/architecture/run-your-app
-NOTE 2: The streamlit app will try to load the weights from "vgg16_trained_model_2.pth" which located in the same folder, if the file is unavailable, the pretrained weight of VGG16 model will be used. "vgg16_trained_model_2.pth" can be obtained by running the code "WQF7009 Alternative Assessment Part 1 - Code.py"
+- NOTE 1: Further information for execution is available in: https://docs.streamlit.io/develop/concepts/architecture/run-your-app
+- NOTE 2: The streamlit app will try to load the weights from "vgg16_trained_model_2.pth" which located in the same folder, if the file is unavailable, the pretrained weight of VGG16 model will be used. "vgg16_trained_model_2.pth" can be obtained by running the code "WQF7009 Alternative Assessment Part 1 - Code.py"
 
